@@ -1,0 +1,120 @@
+*  {
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+.all{
+    display: block;
+}
+nav ul li a{
+  color:black;
+}
+li {
+    display: inline;
+  }
+li a {
+    padding: 10px;
+    text-decoration: none;
+  }
+nav{
+    float: right;
+    margin: 5px 10px;
+}
+    
+#round{
+    background-color: red;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+}
+.inside {
+    display: flex;
+    margin-left: 150px;
+  }
+.inside input{
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid rgb(163, 157, 157);
+  }
+#searchme{
+    position: absolute;
+    padding: 15px;
+  }
+#voice{
+    position: absolute;
+    margin-left: 550px;
+    padding: 15px;
+  }
+.click{
+    padding: 15px;
+  }
+.click input{
+    padding: 5px;
+    margin: 4px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 35px;
+  }
+  .container a{
+    text-decoration: none;
+  }
+
+.container{
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ecebeb;
+}
+footer p{
+  margin-left: 12px;
+  color: rgb(139, 136, 136);
+}
+footer ul a{
+  color: rgb(139, 136, 136);
+}
+.middle li span{
+  color:rgb(79, 134, 79);
+}
+footer ul{
+    display: inline;
+    position: relative;
+    bottom: 12px;
+}
+#logo{
+    margin: 100px 500px 20px 500px;
+    
+}
+.right, .left, .middle{
+   float: left;
+}
+.right, .left{
+    margin-top: 10px;
+}
+.left{
+  float: right;
+    margin-right: 10px;
+}
+.middle{
+    margin-left: 200px;
+}
+.play{
+    margin-left: 200px;
+}
+hr{
+  position: relative;
+  bottom: 6px;
+  width: 100%;
+}
+.offer a{
+  padding: 2px;
+}
